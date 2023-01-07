@@ -9,8 +9,11 @@ function validResult(chute){
             `
             document.body.style.backgroundColor = 'var(--primary-color)';
             document.body.style.color = 'var(--bg-color)';
+
         }else{
+
         elChute.innerHTML += '<div>valor inválido</div>'
+
         }
     }
     if(beyondPermited(numero)){
@@ -29,7 +32,7 @@ function validResult(chute){
     } else if(numero > numeroSecreto){
         elChute.innerHTML += `
         <div>o valor é menor <i class="fa-solid fa-angle-down"></i></div>`
-    } else {
+    } else if(numero < numeroSecreto){
         elChute.innerHTML += `
         <div>o valor é maior <i class="fa-solid fa-angle-up"</div>`
     }
