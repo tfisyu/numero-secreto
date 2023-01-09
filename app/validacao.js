@@ -3,6 +3,7 @@ function validResult(chute){
     
     if(invalidValue(numero)){
         if(chute === 'game over'){
+            document.body.classList.add('game-over')
             document.body.innerHTML = `
                 <h2>você desistiu. fraco.</h2>
                 <button id="replay" class="btn-jogar">jogar novamente</button>
