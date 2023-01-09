@@ -61,3 +61,20 @@ h3{
     color: var(--bg-color);
     transition: .5s;
 }
+
+.game-over{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.game-over button{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: 1px solid var(--bg-color);
+}
+
+.game-over button:hover{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    transition: .5s;
+}

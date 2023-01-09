@@ -8,9 +8,6 @@ function validResult(chute){
                 <h2>você desistiu. fraco.</h2>
                 <button id="replay" class="btn-jogar">jogar novamente</button>
             `
-            document.body.style.backgroundColor = 'var(--primary-color)';
-            document.body.style.color = 'var(--bg-color)';
-
         }else{
 
         elChute.innerHTML += '<div>valor inválido</div>'
